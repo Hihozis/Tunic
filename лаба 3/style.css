@@ -1,0 +1,19 @@
+html{
+	min-height: 100%;
+}
+body {
+	
+	/*
+	0deg - сверху вниз
+	90deg   - справа налево 
+	180deg  - снизу вверх
+	270deg  - слева направо 
+	*/
+	background-image:  linear-gradient(90deg,#036303,#317B31,#12B812);
+}
+
+/* Текст*/
+.stroke {
+    font: 2em Arial, sans-serif;
+    text-shadow: black  3px 1px 1px;
+   }
