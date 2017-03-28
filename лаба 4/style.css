@@ -1,0 +1,84 @@
+html{
+	min-height: 100%;
+}
+body {
+	
+	/*
+	0deg - сверху вниз
+	90deg   - справа налево 
+	180deg  - снизу вверх
+	270deg  - слева направо 
+	*/
+	background-image:  linear-gradient(90deg,  #036303, #317B31, #12B812 );
+}
+
+/* Текст*/
+.stroke {
+	text-indent: 20px
+	margin-left: 20px;
+    font: 2em Arial, sans-serif;
+    text-shadow: black  3px 1px 1px;
+   }
+
+.text
+{  
+	margin: 20px;
+    border: 1px solid black; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+    margin-bottom: 10px; /* Отступ снизу */
+    text-align: left; 
+}
+
+/*Меню*/
+ul.css-menu-3 {
+list-style: none;
+border-bottom: 5px solid #78040D; /*низ линия*/
+border-top: 1px solid #78040D; /*вверх линия*/
+padding: 11px;
+background: #98B72E /*зад*/
+}
+
+ul.css-menu-3 li {
+display: inline
+}
+
+ul.css-menu-3 li a {
+color: #fefefe;
+text-decoration: none;
+background: #7B9E00;
+border: 1px solid #7B9E00;
+border-bottom: 1px solid #7B9E00; 
+margin: 0; 
+padding: 10px 14px 10px 14px 
+}
+/*Свет*/
+ul.css-menu-3 li a.selected {
+color: #fefefe;
+background: #7B1904;
+border: 1px #cc0000 solid;
+border-bottom: 1px solid #bb0000;
+border-left: 1px solid #770000;
+padding: 10px 14px 10px 14px
+}
+ul.css-menu-3 li a:hover {border-left: 4px solid black; border-right: 4px solid black}
+
+/* Кнопка*/
+.topbutton {
+width:10px;
+background:#FFD640;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:20px;
+right:50px;
+cursor:pointer;
+color:#FFD640;
+font-family:verdana;
+font-size:12px;
+border-radius: 50px;
+-moz-border-radius: 500px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+    filter: alpha(Opacity=75); 
+    opacity: 0.80; 
+}
