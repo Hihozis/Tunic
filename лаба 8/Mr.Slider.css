@@ -1,0 +1,37 @@
+main{
+  height: 35vw;
+}
+#list{
+  list-style-type:none;
+  width: 9999px;
+}
+.wrapImg{
+  float: left;
+}
+.sliderImg{
+  display: block;
+  width: 75vw;
+  height: 30vw;
+  margin-right: 5vw;
+}
+#slider{
+	width: 100vw;
+	overflow: hidden;
+}
+.prev, .next{
+  background-color #fff;
+  color: #507EF1;
+  border-radius: 10px;
+  min-width: 10vw;
+  margin-top: 1vw;
+}
+
+.prev{
+  float: left;
+  margin-left: 3vw;
+}
+
+.next{
+  float: right;
+  margin-right: 3vw;
+}

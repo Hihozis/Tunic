@@ -1,0 +1,19 @@
+#featured {
+  width: 70vw;
+  height: 450px;
+  margin: 5vw 5vw;
+  background: #009cff url('orbit/loading.gif') no-repeat center center; overflow: hidden;
+}
+#tabs-1{
+  font-size: 14px;
+}
+.ui-widget-header {
+  background:#33CCCC;
+  border: 1px solid #33CCCC;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.mytab{
+	position: relative;
+	z-index: 1;
+}
