@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 6</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width"/>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/Mr.Slider.css">
+</head>
+<body>
+<header>
+    <div class="nav-container">
+         <nav class="navbar">
+             <ul>
+                 <li><a href="index.html">Главная</a></li>
+                 <li><a href="schedule.html">Расписание</a></li>
+                 <li><a href="news.html">Новости</a></li>
+                 <li><a href="video.html">Видео</a></li>
+                 <li><a href="photo.html">Фото</a></li>
+                 <li class="navbar-active"><a href="slider.html">Slider</a></li>
+                 <li><a href="https:/vk.com">VK</a></li>
+             </ul>
+        </nav>
+    </div>
+</header>
+<main>
+
+<div id="slider">
+  <ul id="list">
+    <li class="wrapImg"><img src="images/1.jpg" alt="1" class="sliderImg" id="slide1"></li>
+    <li class="wrapImg"><img src="images/2.jpg" alt="2" class="sliderImg" id="slide2"></li>
+    <li class="wrapImg"><img src="images/3.jpg" alt="3" class="sliderImg" id="slide3"></li>
+    <li class="wrapImg"><img src="images/4.jpg" alt="4" class="sliderImg" id="slide4"></li>
+    <li class="wrapImg"><img src="images/5.jpg" alt="5" class="sliderImg" id="slide5"></li>
+    <li class="wrapImg"><img src="images/6.jpg" alt="6" class="sliderImg" id="slide6"></li>
+  </ul>
+</div>
+<button type="button" class="prev" onclick="slide(-1)">Previous slide</button>
+<button type="button" class="next" onclick="slide(1)">Next slide</button>
+</main>
+<script src="js/Mr.Slider.js"></script>
+</body>
+</html>
