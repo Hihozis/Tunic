@@ -1,0 +1,16 @@
+@media (max-width:1000px){
+    body{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    nav {
+        display:block;
+        float: left;
+    }
+    
+    nav li{
+        
+        display: block;
+    }
+}
